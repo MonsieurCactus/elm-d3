@@ -7,6 +7,8 @@ basis for the library, as well as an alternative renderer for Elm.
 [elm]: http://elm-lang.org
 [d3]: http://d3js.org
 
+**Note** this fork involves possible changes and simplifications due to [Elm-0.17](http://elm-lang.org/blog/farewell-to-frp) and [d3.js 4.0](https://github.com/d3/d3)
+
 ## Installation
 
 First make sure that you have [node.js][node] installed, as well as the
