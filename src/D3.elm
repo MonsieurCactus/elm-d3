@@ -1,4 +1,4 @@
-module D3
+module D3 exposing
   ( version             -- : String
 
   , D3
@@ -31,7 +31,7 @@ module D3
   , transition          -- : D3 a a
   , delay               -- : (a -> Int -> Int) -> D3 a a
   , duration            -- : (a -> Int -> Int) -> D3 a a
-  ) where
+  )  
 
 {-| Elm bindings for D3.js
 
@@ -57,7 +57,7 @@ module D3
 @docs select, selectAll, static, append, remove, attr, classed, property, style, html, text
 -}
 
-import Graphics.Element exposing (Element)
+import Element
 import Json.Encode exposing (Value)
 import String
 

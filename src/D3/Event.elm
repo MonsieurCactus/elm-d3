@@ -1,4 +1,4 @@
-module D3.Event
+module D3.Event exposing
   ( Stream
   , KeyboardEvent
   , MouseEvent
@@ -24,7 +24,7 @@ module D3.Event
 
   , focus       -- : BasicHandler e a
   , blur        -- : BasicHandler e a
-  ) where
+  ) 
 
 {-| Event handlers
 
